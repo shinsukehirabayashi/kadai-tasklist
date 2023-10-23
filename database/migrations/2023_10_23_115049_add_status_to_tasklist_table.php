@@ -4,10 +4,6 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-Schema::table('tasks', function (Blueprint $table) {
-    $table->char('status, 10');
-});
-
 return new class extends Migration
 {
     /**
